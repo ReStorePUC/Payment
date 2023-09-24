@@ -1,0 +1,4 @@
+# Payment
+payment:
+  access_token: "TEST-7941627956389643-092317-004ddb0879606a5e57d56f4dcbb157e3-1488208013"
+  redirect_url: "localhost:3000/perfil"

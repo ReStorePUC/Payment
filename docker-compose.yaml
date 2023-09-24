@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  payment:
+    image: restore/payment:latest
+    deploy:
+      replicas: 1
+    networks:
+      main:
+        aliases:
+          - payment
+networks:
+  main:
+    external: true
